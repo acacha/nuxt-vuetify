@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-vuetify-test",
+  "version": "1.0.0",
+  "description": "My good Nuxt.js project",
+  "author": "Sergi Tur Badenas",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --hostname prova.test --port 3333",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.9.0",
+    "cross-env": "^6.0.3"
+  }
+}
